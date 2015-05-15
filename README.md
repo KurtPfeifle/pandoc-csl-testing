@@ -1,6 +1,6 @@
 # pandoc-csl-testing
 
-Scripts and Howtos about using different CSL (Citation Style Language) files with pandoc
+> Scripts and Howtos about using different CSL (Citation Style Language) files with Pandoc.
 
 Pandoc can insert an automatically generated citation list into documents converted from Markdown (or ASCIIdoc -- but I haven't tested that so far).
 This works for output types LaTeX/PDF/Beamer as well as for HTML/EPUB/EPUB3, HTML Slide formats (DZSlide, Slidy, Slideous, S5 and RevealJS), DOCX, ODT and DocBook.
@@ -32,7 +32,7 @@ Follow these step if you want to test a ***lot*** of different CSL styles. (This
 
     This file can be seen as your personal "database of references".
     It must be formatted in a specific way.
-    (There are many tools out there, like **[Zotero](()** and others, which help you create and maintain your .bib file(s).
+    (There are many tools out there, like **[Zotero](https://www.zotero.org/)** and others, which help you create and maintain your .bib file(s).
     But dealing with that is beyond the scope of this project.)
 
     The `my-csl-testing.bib` provideded here is a .bib file with a few dummy entries.
