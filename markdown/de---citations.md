@@ -18,6 +18,7 @@ i.  Zitat mit einem *Suffix* und einem *Locator* [@z1 pp. 33, 35-37, und sonst n
 i.  Zitat nur mit einem Locator [@z1 und sonst nirgends].
 i.  Jetzt ein paar *Modifiers*[^3]...
 i.  Mit etwas extra Markup [*siehe* @z1 p. **32**].
+i.  Jane Doz doesnt like me [***siehe*** **@z4**].
 
 [^1]: Ein Zitat ohne Locators [@z3].
 
@@ -96,6 +97,7 @@ i.  Zitat mit einem *Suffix* und einem *Locator* [@z1 pp. 33, 35-37, und sonst n
 i.  Zitat nur mit einem Locator [@z1 und sonst nirgends].
 i.  Jetzt ein paar *Modifiers*[^3]...
 i.  Mit etwas extra Markup [*siehe* @z1 p. **32**].
+i.  Jane Doz doesnt like me [***siehe*** **@z4**].
 
 [^1]: Ein Zitat ohne Locators [@z3].
 
@@ -104,6 +106,7 @@ i.  Mit etwas extra Markup [*siehe* @z1 p. **32**].
 [^3]: ...wie z.B. ein Zitat ohne Autor: [-@z1]. Und jetzt noch OStR Oster mit einem Locator [-@z2 p. 44].
 
 $x^2 + y^2 = 1$ @z1
+
 
 # Literaturverzeichnis
 
