@@ -1,4 +1,4 @@
-# pandoc-csl-testing
+# Testing and Using CSL Style Files with Pandoc
 
 > Scripts and Howtos about using different CSL (Citation Style Language) files with Pandoc.
 
