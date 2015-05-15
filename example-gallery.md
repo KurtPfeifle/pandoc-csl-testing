@@ -18,37 +18,39 @@ These pictures clearly show what you can expect.
 
 So if you see something un-expected in your document when using CSL-formatted bibliographies with it, chances are: *"It's not a bug, it's a feature."*
 
-----
 
-![**multiple-sclerosis-journal.csl**](./images/pdflatex---pandoc-csl-testing---multiple-sclerosis-journal.png "multiple-sclerosis-journal.csl")
 
 ----
 
-![**rapid-communications-in-mass-spectrometry.csl**](./images/pdflatex---pandoc-csl-testing---rapid-communications-in-mass-spectrometry.png "rapid-communications-in-mass-spectrometry.csl")
+![**multiple-sclerosis-journal.csl**](./images/pdflatex---pandoc-csl-testing---multiple-sclerosis-journal.png "multiple-sclerosis-journal.CSL")
 
 ----
 
-![**rtf-scan.csl**](./images/pdflatex---pandoc-csl-testing---rtf-scan.png "rtf-scan.csl")
+![**rapid-communications-in-mass-spectrometry.csl**](./images/pdflatex---pandoc-csl-testing---rapid-communications-in-mass-spectrometry.png "rapid-communications-in-mass-spectrometry.CSL")
 
 ----
 
-![**small.csl**](./images/pdflatex---pandoc-csl-testing---small.png "small.csl")
+![**rtf-scan.csl**](./images/pdflatex---pandoc-csl-testing---rtf-scan.png "rtf-scan.CSL")
 
 ----
 
-![**stuttgart-media-university.csl**](./images/pdflatex---pandoc-csl-testing---stuttgart-media-university.png "stuttgart-media-university.csl")
+![**small.csl**](./images/pdflatex---pandoc-csl-testing---small.png "small.CSL")
 
 ----
 
-![**thomson-reuters-legal-tax-and-accounting-australia.csl**](./images/pdflatex---pandoc-csl-testing---thomson-reuters-legal-tax-and-accounting-australia.png "thomson-reuters-legal-tax-and-accounting-australia.csl")
+![**stuttgart-media-university.csl**](./images/pdflatex---pandoc-csl-testing---stuttgart-media-university.png "stuttgart-media-university.CSL")
 
 ----
 
-![**universidade-de-sao-paulo-instituto-de-matematica-e-estatistica.csl**](./images/pdflatex---pandoc-csl-testing---universidade-de-sao-paulo-instituto-de-matematica-e-estatistica.png "universidade-de-sao-paulo-instituto-de-matematica-e-estatistica.csl")
+![**thomson-reuters-legal-tax-and-accounting-australia.csl**](./images/pdflatex---pandoc-csl-testing---thomson-reuters-legal-tax-and-accounting-australia.png "thomson-reuters-legal-tax-and-accounting-australia.CSL")
 
 ----
 
-![**wissenschaftlicher-industrielogistik-dialog.csl**](./images/pdflatex---pandoc-csl-testing---wissenschaftlicher-industrielogistik-dialog.png "wissenschaftlicher-industrielogistik-dialog.csl")
+![**universidade-de-sao-paulo-instituto-de-matematica-e-estatistica.csl**](./images/pdflatex---pandoc-csl-testing---universidade-de-sao-paulo-instituto-de-matematica-e-estatistica.png "universidade-de-sao-paulo-instituto-de-matematica-e-estatistica.CSL")
+
+----
+
+![**wissenschaftlicher-industrielogistik-dialog.csl**](./images/pdflatex---pandoc-csl-testing---wissenschaftlicher-industrielogistik-dialog.png "wissenschaftlicher-industrielogistik-dialog.CSL")
 
 ----
 

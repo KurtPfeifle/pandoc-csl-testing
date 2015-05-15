@@ -1,7 +1,7 @@
 # `pandoc`: Test Series for automatically generated bibliographies using different CSL files from [citationstyles.org](http://citationstyles.org/styles/)
 # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *here using:* `___csl_style___`
 
-## Markdown-Quellcode des relevanten Teils dieser Seite
+## Markdown source code for the relevant port of this page
 
 ``` {.markdown}
 i.  [@nonexistent]
