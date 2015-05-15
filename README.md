@@ -60,7 +60,7 @@ Follow these step if you want to test a ***lot*** of different CSL styles. (This
 1. **Run the testscript**
 
         cd ~/svn-git-stuff/git.pandoc-csl-testing/scripts
-        bash run-few-csl-tests.sh
+        bash run-some-csl-tests.sh
 
     The script `run-some-csl-tests.sh` is designed to run out of the box.
     It generates PDF, HTML and EPUB3 output.
