@@ -24,7 +24,7 @@ It exerts its influence in three distinct areas, formatting also the look and fe
 1. The references to the citation.
 1. The bibliography section of the document.
 
-The following image shows to examples (PDF output) side by side:
+The following image shows two examples (PDF output) side by side:
 
 ![Left: "stuttgart-media-university.csl". Right: "rtf-scan.csl"](./images/2-examples.png)
 
