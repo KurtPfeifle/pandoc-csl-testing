@@ -18,7 +18,7 @@ i.  Zitat mit einem *Suffix* und einem *Locator* [@z1 pp. 33, 35-37, und sonst n
 i.  Zitat nur mit einem Locator [@z1 und sonst nirgends].
 i.  Jetzt ein paar *Modifiers*[^3]...
 i.  Mit etwas extra Markup [*siehe* @z1 p. **32**].
-i.  Jane Doz doesnt like me [***siehe*** **@z4**].
+i.  Jane Doz mag mich nicht [***siehe*** **@z4**].
 
 [^1]: Ein Zitat ohne Locators [@z3].
 
