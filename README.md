@@ -16,7 +16,16 @@ And frequently they are surprised how the generated output looks in the final do
 
 However, often it is the used CSL style file which manipulates the output in a surprising way.
 
-Users (as well as  developers of CSL styles) can use the scripts and example files provided here to check and verify a specific configuration they use, or find an alternative one which they like better.
+Users (as well as developers of CSL styles) can use the scripts and example files provided here to check and verify a specific configuration they use, or find an alternative one which they like better.
+The CSL file does not only determine the look of the bibliography section of the document.
+It excerts its influence in four distinct areas, formatting also the look and feel, and even *the actual text contents* of other parts of the document:
+
+1. The footnotes of pages including citations.
+1. The references to the citation.
+
+See [the example gallery](example-gallery.md) for a few remarkable examples depicting some results for PDF files.
+
+# Prerequisites
 
 On top of a current, working `pandoc` installation (including a working LaTeX installation for PDF output), you need to have two more elements:
 
