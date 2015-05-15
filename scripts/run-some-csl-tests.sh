@@ -49,7 +49,6 @@ PATH=$HOME/.cabal/bin:$PATH
 
 #time for csl in ~/svn-git-stuff/git.csl-styles/*.csl; do
 time for csl in ~/svn-git-stuff/git.csl-styles/{thomson-reuters-legal-tax,triangle,universidade-de-sao-paulo-instituto,wissenschaftlicher-industrielogistik-dialog,stuttgart-media-university,thieme-e-journals-vancover,rapid-communications-in-mass-spectrometry,rtf-scan,small,multiple-sclerosis-journal,norma-portuguesa-405,lluelles-lexisnexis}*.csl; do
-xelatex-mit-var-de---git.citation-styles.trunk---wissenschaftlicher-industrielogistik-dialog.pdf
     cslname=$(basename "${csl}")
 
     # There are some "small" .csl files in this repo which do no work;
