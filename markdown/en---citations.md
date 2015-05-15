@@ -1,7 +1,7 @@
 # `pandoc`: Test Series for automatically generated bibliographies using different CSL files from [citationstyles.org](http://citationstyles.org/styles/)
 # &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *here using:* `___csl_style___`
 
-## Markdown source code for the relevant port of this page
+## Markdown source code for relevant port of this page
 
 ``` {.markdown}
 i.  [@nonexistent]
@@ -63,7 +63,7 @@ year="30 v.Chr."
 ```
 -->
 
-## Pandoc command generate this document
+## Pandoc command to generate this document
 
 ``` {.noweb}
 csl=___csl_style___
