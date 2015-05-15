@@ -14,7 +14,7 @@ The following command line parameters are required to run the tests covered by t
 But users are often unsure how to insert the citation Markdown code into their source files.
 And frequently they are surprised how the generated output looks in the final document.
 
-However, often it is the used CSL style file which manipulates the output in a surprising way.
+However, often it is the used **[CSL style](http://en.wikipedia.org/wiki/Citation_Style_Language)** file which manipulates the output in a surprising way.
 
 Users (as well as developers of CSL styles) can use the scripts and example files provided here to check and verify a specific configuration they use, or find an alternative one which they like better.
 The CSL file does not only determine the look of the bibliography section of the document.
