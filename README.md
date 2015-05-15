@@ -44,29 +44,23 @@ Follow these step if you want to test a ***lot*** of different CSL styles. (This
 
     I recommend to clone the GitHub repo of **[citationstyles.org](http://citationstyles.org)**:
 
-    ``` {.noweb}
-    cd $HOME
-    mkdir svn-git-stuff
-    cd svn-git-stuff
-    git clone https://github.com/citation-style-language/styles.git git.csl-styles
-    ```
+        cd $HOME
+        mkdir svn-git-stuff
+        cd svn-git-stuff
+        git clone https://github.com/citation-style-language/styles.git git.csl-styles
 
     This repo currently weights about 75 MBytes.
     There are more than 1000 different CSL style files in there!
 
 1. **Clone this repository here.**
 
-    ``` {.noweb)
-    cd ~/svn-git-stuff
-    git clone https://github.com/KurtPfeifle/pandoc-csl-testing.git git.pandoc-csl-testing
-    ```
+        cd ~/svn-git-stuff
+        git clone https://github.com/KurtPfeifle/pandoc-csl-testing.git git.pandoc-csl-testing
 
 1. **Run the testscript**
 
-    ``` {.noweb)
-    cd ~/svn-git-stuff/git.pandoc-csl-testing/scripts
-    bash run-few-csl-tests.sh
-    ```
+        cd ~/svn-git-stuff/git.pandoc-csl-testing/scripts
+        bash run-few-csl-tests.sh
 
     The script `run-some-csl-tests.sh` is designed to run out of the box.
     It generates PDF, HTML and EPUB3 output.
