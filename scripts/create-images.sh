@@ -9,7 +9,7 @@ mkdir ../images 2>/dev/null
 for img in ../output/*latex---pandoc-csl-testing---*.pdf ; do
     csl=${img/pdflatex---pandoc-csl-testing---/}
     csl=${csl/pdflatex---pandoc-csl-testing---/}
-    csl=${csl/pdflatex---pandoc-csl-testing---/}
+    csl=${csl/lualatex---pandoc-csl-testing---/}
     csl=${csl/.pdf/.csl}
     convert                         \
         ${img}[0]                   \
@@ -24,7 +24,13 @@ for img in ../output/*latex---pandoc-csl-testing---*.pdf ; do
         +append                     \
         \)                          \
         +repage                     \
-        \( -size 560x80 -background '#0008' -fill white -gravity center caption:" CSL style file: $(basename ${csl/.pdf/.csl}) " \) \
+        \(                          \
+            -size 560x80            \
+            -background '#0008'     \
+            -fill white             \
+            -gravity center         \
+            caption:" CSL style file: $(basename ${csl/.pdf/.csl}) " \
+        \)                          \
         -gravity south              \
         -geometry -32+10            \
         -composite                  \
