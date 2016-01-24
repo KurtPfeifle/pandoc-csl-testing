@@ -17,8 +17,8 @@ i.  And still anoter, in a footnote.[^2]
 i.  Quote with a *suffix* and a *locator* [@z1 pp. 33, 35-37, and nothing else].
 i.  Quote with only one locator [@z1 and nowhere else].
 i.  Now a few *modifiers*[^3]...
-i.  Withh some extra Markup [*siehe* @z1 p. **32**].
-i.  Jane Doz doesnt like me [***siehe*** **@z4**].
+i.  With some extra Markup [*see* @z1 p. **32**].
+i.  Jane Doz doesnt like me [***see*** **@z4**].
 
 [^1]: A citation without locators [@z3].
 
@@ -88,8 +88,8 @@ i.  And still anoter, in a footnote.[^2]
 i.  Quote with a *suffix* and a *locator* [@z1 pp. 33, 35-37, and nothing else].
 i.  Quote with only one locator [@z1 and nowhere else].
 i.  Now a few *modifiers*[^3]...
-i.  Withh some extra Markup [*siehe* @z1 p. **32**].
-i.  Jane Doz doesnt like me [***siehe*** **@z4**].
+i.  With some extra Markup [*see* @z1 p. **32**].
+i.  Jane Doz doesnt like me [***see*** **@z4**].
 
 [^1]: A citation without locators [@z3].
 

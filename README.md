@@ -1,6 +1,8 @@
 # Testing and Using CSL Style Files with Pandoc
 
 > Scripts and Howtos about using different CSL (Citation Style Language) files with Pandoc.
+>
+> The scripts have been tested with Pandoc 1.16.0.2 and are known to work in Debian 8 (Jessie) and Mac OS X 10.10.5 (Yosemite).
 
 Pandoc can insert an automatically generated citation list into documents converted from Markdown (or ASCIIdoc -- but I haven't tested that so far).
 This works for output types LaTeX/PDF/Beamer as well as for HTML/EPUB/EPUB3, HTML Slide formats (DZSlide, Slidy, Slideous, S5 and RevealJS), DOCX, ODT and DocBook.
@@ -34,7 +36,7 @@ See also [the example gallery](example-gallery.md) for a few remarkable examples
 
 # Prerequisites
 
-On top of a current, working `pandoc` installation (including a working LaTeX installation for PDF output), you need to have two more elements:
+On top of a current, working `pandoc` installation (including a working LaTeX installation for PDF output which includes the relevant LaTeX packages), you need to have two more elements:
 
 1. **A `.bib` file with the list of used bibliographic resources.**
 1. **A few CSL files you want to test.**
@@ -87,9 +89,34 @@ Follow these step if you want to test a ***lot*** of different CSL styles. (This
     Do you ***really*** want to generate a test output document showing 1100 different citation styles?!? -- 
     Decide, edit, then run.
 
+1. **Modify the testscript**
+
+   The outcome of the testscript can be influenced by commenting in or commenting out different variables (or lines in the script):
+
+    - **`my\_markdown`** (lines 8 and 9): The file *de---citations.md* creates output documents in German.
+        The file *en---citations.md*   creates output documents in English.
+    - **`my\_highlight\_style`** (lines 15--21): Changes the syntax highlighting style.
+        Possible values are *espresso* (default), *pygments*, *kate*, *monochrome*, *haddock*, *tango* and *zenburn*.
+    - **`latex_engine`** (lines 26--28)): Default setting is *pdflatex*; other possible values are *lualatex* or *xelatex*.
+    - **`my\_localizations`** (lines 30/31): Default setting is for English as the main language; may be changed to German.
+    - **CSL files to test** (lines 65--67): By default only about a dozen selected CSL styles are used (line 67). To test *ALL* available CSL styles, enable line 66 and disable line 67).
+
+   If  you read (and understand) the script, you'll find more ways to tune it to your own needs or preferences.
+
+# Hint
+
+You will see the following warning in the script output:
+
+~~~bash
+ pandoc-citeproc: reference nonexistent not found
+~~~
+
+This is intentional.
+It is the result of including a non existent reference in the Markdown input document (appropriately called "nonexistent").
+It serves to test the CSL behavior for such cases of errors (which are the document authors' fault, but which are committed regularly).
+
 # Caveats
 
-I've not tested the scripts contained here on Linux (yet).
 My main personal focus is to test the PDF output -- so I haven't tested EPUB3 or HTML output much either (yet).
 This version is a short-term, quick'n'dirty cleaned up modification from my private local resources.
 I made it because a friend asked me to get a copy.
