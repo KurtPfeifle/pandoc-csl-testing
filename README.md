@@ -93,12 +93,12 @@ Follow these step if you want to test a ***lot*** of different CSL styles. (This
 
    The outcome of the testscript can be influenced by commenting in or commenting out different variables (or lines in the script):
 
-    - **`my\_markdown`** (lines 8 and 9): The file *de---citations.md* creates output documents in German.
+    - **`my_markdown`** (lines 8 and 9): The file *de---citations.md* creates output documents in German.
         The file *en---citations.md*   creates output documents in English.
-    - **`my\_highlight\_style`** (lines 15--21): Changes the syntax highlighting style.
+    - **`my_highlight_style`** (lines 15--21): Changes the syntax highlighting style.
         Possible values are *espresso* (default), *pygments*, *kate*, *monochrome*, *haddock*, *tango* and *zenburn*.
     - **`latex_engine`** (lines 26--28)): Default setting is *pdflatex*; other possible values are *lualatex* or *xelatex*.
-    - **`my\_localizations`** (lines 30/31): Default setting is for English as the main language; may be changed to German.
+    - **`my_localizations`** (lines 30/31): Default setting is for English as the main language; may be changed to German.
     - **CSL files to test** (lines 65--67): By default only about a dozen selected CSL styles are used (line 67). To test *ALL* available CSL styles, enable line 66 and disable line 67).
 
    If  you read (and understand) the script, you'll find more ways to tune it to your own needs or preferences.
@@ -107,9 +107,9 @@ Follow these step if you want to test a ***lot*** of different CSL styles. (This
 
 You will see the following warning in the script output:
 
-~~~bash
+```bash
  pandoc-citeproc: reference nonexistent not found
-~~~
+```
 
 This is intentional.
 It is the result of including a non existent reference in the Markdown input document (appropriately called "nonexistent").
