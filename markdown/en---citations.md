@@ -13,7 +13,7 @@ i.  @z1 [-@z2 p. 30; see also @z3] says blah-blubb.
 i.  In a footnote.[^1]
 i.  A citation group [see  @z1 p. 34-35; also @z3 chap. 3].
 i.  Another one [see @z1 p. 34-35].
-i.  And still anoter, in a footnote.[^2]
+i.  And still another, in a footnote.[^2]
 i.  Quote with a *suffix* and a *locator* [@z1 pp. 33, 35-37, and nothing else].
 i.  Quote with only one locator [@z1 and nowhere else].
 i.  Now a few *modifiers*[^3]...
@@ -84,7 +84,7 @@ i.  @z1 [-@z2 p. 30; see also @z3] says blah-blubb.
 i.  In a footnote.[^1]
 i.  A citation group [see  @z1 p. 34-35; also @z3 chap. 3].
 i.  Another one [see @z1 p. 34-35].
-i.  And still anoter, in a footnote.[^2]
+i.  And still another, in a footnote.[^2]
 i.  Quote with a *suffix* and a *locator* [@z1 pp. 33, 35-37, and nothing else].
 i.  Quote with only one locator [@z1 and nowhere else].
 i.  Now a few *modifiers*[^3]...
