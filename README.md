@@ -44,9 +44,13 @@ On top of a current, working `pandoc` installation (including a working LaTeX in
 
 # Steps to follow
 
-Follow these step if you want to test a ***lot*** of different CSL styles
+Follow these step if you want to test a ***lot*** of different CSL styles.
 The script by default will generate PDF, HTML and EPUB3 output, one file per tested CSL style.
+
 By default, about a dozen CSL styles are tested.
+Their selection demonstrates the variety of output that can be caused by the CSL selected.
+(So you can see that it is not always an authors' mistake in his input Markdown if the output shows up in an "unexpected" way.)
+
 You can currently test more than 1200 different styles by commenting in the respective line in the script.
 The script works for Linux and Mac OS X users -- Windows users are currently not supported, but may draw some inspiration to create their own solution:
 
