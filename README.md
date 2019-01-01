@@ -76,7 +76,7 @@ The script works for Linux and Mac OS X users -- Windows users are currently not
         git clone https://github.com/citation-style-language/styles.git git.csl-styles
 
     This repo currently weights about 75 MBytes.
-    There are more than 1000 different CSL style files in there!
+    There are more than 9.200 different CSL style files in there!
 
 1. **Clone this repository here.**
 
